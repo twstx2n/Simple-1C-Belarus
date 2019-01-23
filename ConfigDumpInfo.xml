@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="Catalog.Договора" id="e10d5793-808d-4709-90f1-892f81b5f30b" configVersion="870a861854fb7a48a68406c712c46dfb00000000"/>
+		<Metadata name="Catalog.Контрагенты" id="29e9e685-84ca-4d83-93c3-117553d7ea13" configVersion="802f3480925fa4428ddd35fa6b1c539800000000"/>
+		<Metadata name="Catalog.Сотрудники" id="059fd9e5-1418-421b-a548-a7d90692f92b" configVersion="23447b72f9c917419a599455f4d4b6e500000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.ПолСотрудника" id="0d44f313-473a-4af9-b19c-dd73223d0121"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Имя" id="148c1390-7ea4-451a-9b83-88a1083a7362"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Отчество" id="7e803964-7c36-4d60-af36-f3b71eba5645"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Фамилия" id="e0206a6f-451e-469d-a21e-0a9bb415e47e"/>
+		</Metadata>
+		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="4e4c940370fbd6469778b5149dd5091000000000"/>
+		<Metadata name="Enum.ПолСотрудника" id="47bdc294-ce75-4fe5-9fc1-a3ba6d29a377" configVersion="199a5f30d3c2224785d83a49340bd9fc00000000">
+			<Metadata name="Enum.ПолСотрудника.EnumValue.Женский" id="138bbebf-0be1-4d5e-90d5-df372579053b"/>
+			<Metadata name="Enum.ПолСотрудника.EnumValue.Мужской" id="b638112f-232a-4664-a347-8aed08bd46ff"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПропискаСотрудника" id="1bfd706f-877b-4df2-8ccb-9b5a41e30d89" configVersion="9ff5e30e5d2b7a46abc42ab2ff5f2a0500000000">
+			<Metadata name="InformationRegister.ПропискаСотрудника.Resource.Прописка" id="bb129777-bab5-4d2d-829e-6577f364ac94"/>
+			<Metadata name="InformationRegister.ПропискаСотрудника.Dimension.Сотрудник" id="d9ebaec6-0dbb-485c-9ab9-f7da2c3a8f13"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="a694c038-28f2-4c3a-8fb3-7f552912b75a" configVersion="cc0942449742884ea4a0b3037e8712d600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
