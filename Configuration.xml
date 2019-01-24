@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.1</Version>
+			<Version>0.0.0.0.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -153,11 +153,20 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>КлиентскаяРаботаСДокументами</CommonModule>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Договора</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ЕдиницыИзмерений</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Document>СчетНаОплату</Document>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>РасходнаяНакладная</Document>
 			<Enum>ПолСотрудника</Enum>
+			<Report>ОстаткиТоваров</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
+			<AccumulationRegister>ОстаткиТовара</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
