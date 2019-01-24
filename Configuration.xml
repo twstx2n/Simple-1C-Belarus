@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.2</Version>
+			<Version>0.0.0.0.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -166,7 +166,7 @@
 			<Enum>ПолСотрудника</Enum>
 			<Report>ОстаткиТоваров</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
-			<AccumulationRegister>ОстаткиТовара</AccumulationRegister>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

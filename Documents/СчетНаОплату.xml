@@ -55,7 +55,7 @@
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
+			<Posting>Deny</Posting>
 			<RealTimePosting>Allow</RealTimePosting>
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
@@ -350,6 +350,30 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>Макет</Template>
+			<Template>Печать2</Template>
+			<Command uuid="8aecce9b-cdb0-4ecb-9375-92c404a4c43f">
+				<Properties>
+					<Name>Печать2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать2</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.СчетНаОплату</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

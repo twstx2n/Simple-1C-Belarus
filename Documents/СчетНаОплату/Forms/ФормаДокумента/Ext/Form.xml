@@ -39,6 +39,11 @@
 			<ContextMenu name="ТоварыКонтекстноеМеню" id="14"/>
 			<AutoCommandBar name="ТоварыКоманднаяПанель" id="15">
 				<ChildItems>
+					<Button name="ТоварыПечать1" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Печать1</CommandName>
+						<ExtendedTooltip name="ТоварыПечать1РасширеннаяПодсказка" id="44"/>
+					</Button>
 					<Button name="ТоварыСвернутьТЧ" id="41">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СвернутьТЧ</CommandName>
@@ -141,6 +146,21 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="Печать1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать1</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать1</Action>
 		</Command>
 	</Commands>
 </Form>
