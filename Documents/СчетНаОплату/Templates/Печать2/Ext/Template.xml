@@ -359,7 +359,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номер</v8:content>
+							<v8:content>Итого:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -367,7 +367,7 @@
 			<c>
 				<c>
 					<f>14</f>
-					<parameter>Номер</parameter>
+					<parameter>СуммаИтого</parameter>
 				</c>
 			</c>
 		</row>
