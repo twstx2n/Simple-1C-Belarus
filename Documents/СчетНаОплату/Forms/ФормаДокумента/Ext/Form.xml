@@ -142,9 +142,10 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Свернуть ТЧ</v8:content>
+					<v8:content>Свернуть табличную часть</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>СвернутьТЧ</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 		<Command name="Печать1" id="2">

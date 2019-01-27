@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.4</Version>
+			<Version>0.0.0.0.5</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -160,6 +160,7 @@
 			<Catalog>Валюты</Catalog>
 			<Catalog>ЕдиницыИзмерений</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
@@ -167,6 +168,8 @@
 			<Report>ОстаткиТоваров</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
+			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
+			<AccumulationRegister>РасчетыСПокупателями</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

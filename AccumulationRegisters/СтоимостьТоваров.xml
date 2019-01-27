@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AccumulationRegister uuid="8fbf2460-4a0b-4e21-9e9f-9b00f3e14cbb">
+	<AccumulationRegister uuid="2525c5bb-3f66-4a48-b516-5bb7b2b597df">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.ОстаткиТоваров" category="Record">
-				<xr:TypeId>ee16fc4d-c5c1-47ee-950f-a35f1d51568a</xr:TypeId>
-				<xr:ValueId>1dec82f6-fa49-40d9-8b7b-68929d57964a</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.СтоимостьТоваров" category="Record">
+				<xr:TypeId>9b68daca-73ef-4111-8374-84956eb0bf79</xr:TypeId>
+				<xr:ValueId>41d65a30-94f8-49be-9bf5-3cc53e303a72</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.ОстаткиТоваров" category="Manager">
-				<xr:TypeId>77c5aa03-fa23-4015-aaa1-4b68f7128d68</xr:TypeId>
-				<xr:ValueId>623cd391-db7e-4c05-823f-2139dbdefbc8</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.СтоимостьТоваров" category="Manager">
+				<xr:TypeId>1f824546-d338-4cf5-9b24-093e79fcc86c</xr:TypeId>
+				<xr:ValueId>31bdb2a8-ab9e-4ba9-a781-4bd1a065e27c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.ОстаткиТоваров" category="Selection">
-				<xr:TypeId>8b92db3c-362e-4601-ab0c-2626d461cf01</xr:TypeId>
-				<xr:ValueId>caf56ba2-b964-4277-8ade-f3c8b699a512</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.СтоимостьТоваров" category="Selection">
+				<xr:TypeId>e43c4fba-28b4-42cb-9693-6bd6487403dd</xr:TypeId>
+				<xr:ValueId>19539572-8b7e-4b10-a7cd-9552270b10e2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.ОстаткиТоваров" category="List">
-				<xr:TypeId>6263fa28-7ed2-4e10-887a-9629792b0a12</xr:TypeId>
-				<xr:ValueId>2a6c21f0-471b-42b2-a439-8284e798975f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.СтоимостьТоваров" category="List">
+				<xr:TypeId>740bddb9-11a3-4b9b-9fb7-dee5d075d47e</xr:TypeId>
+				<xr:ValueId>e9e80706-47e1-45e5-87ff-2910fc7fb74a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОстаткиТоваров" category="RecordSet">
-				<xr:TypeId>76827d0e-b6ea-4f4e-89d2-0bef547bc1d4</xr:TypeId>
-				<xr:ValueId>efb38b42-00fe-4315-874c-15ca47800a7a</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.СтоимостьТоваров" category="RecordSet">
+				<xr:TypeId>85c509a8-afc0-4863-be0e-eaba4f60ea18</xr:TypeId>
+				<xr:ValueId>1b74203b-e89c-444e-95e6-ffd39a047771</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОстаткиТоваров" category="RecordKey">
-				<xr:TypeId>a9e17eed-f0f6-4b1d-a978-a074713f0f0e</xr:TypeId>
-				<xr:ValueId>fcb6c222-bd23-46de-bd86-43c4cbb3d1a7</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.СтоимостьТоваров" category="RecordKey">
+				<xr:TypeId>81b305ff-e3f2-48b8-866c-f635ae791240</xr:TypeId>
+				<xr:ValueId>027419c2-1021-48df-8780-91fcaae1e725</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОстаткиТоваров</Name>
+			<Name>СтоимостьТоваров</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Остатки товаров</v8:content>
+					<v8:content>Стоимость товаров</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,7 +49,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="3da6bf5e-0aba-427f-965d-c73122b3b49c">
+			<Resource uuid="ad3373b8-d6b1-48d4-ae48-719bf74ca5e1">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -89,18 +89,23 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="f6c3e0ab-c203-41e8-a22d-9f9c4bd39a66">
+			<Resource uuid="a02d78bc-628c-4b2c-8fdf-8e80eed34c73">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Стоимость</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Стоимость</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -121,24 +126,21 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<UseInTotals>true</UseInTotals>
 				</Properties>
-			</Dimension>
-			<Dimension uuid="02996ea0-74cf-473a-be2f-cdbffb5f7bb4">
+			</Resource>
+			<Dimension uuid="de1ef8d8-a7e1-46b5-95df-cc07cc86e67c">
 				<Properties>
-					<Name>Склад</Name>
+					<Name>Номенклатура</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Склад</v8:content>
+							<v8:content>Номенклатура</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
