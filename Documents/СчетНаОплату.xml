@@ -182,7 +182,7 @@
 					</Synonym>
 					<Comment/>
 					<ToolTip/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="cd55fb1e-93ed-4d6f-b5bc-e00118186507">
