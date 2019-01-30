@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.9</Version>
+			<Version>0.0.0.0.10</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -165,6 +165,7 @@
 			<Catalog>ЕдиницыИзмерений</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
@@ -172,10 +173,15 @@
 			<Document>ВходящийАкт</Document>
 			<Enum>ПолСотрудника</Enum>
 			<Report>ОстаткиТоваров</Report>
+			<Report>АнализПродаж1</Report>
+			<Report>АнализПродаж2</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
+			<InformationRegister>ОписаниеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>РасчетыСПокупателями</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ВидыСвойствНоменклатуры</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

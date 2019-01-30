@@ -23,6 +23,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПропискаСотрудника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОписаниеСвойствНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныеСвойстваНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

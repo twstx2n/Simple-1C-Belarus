@@ -48,7 +48,20 @@
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/>
+			<Characteristics>
+				<xr:Characteristic>
+					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры">
+						<xr:KeyField>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры.StandardAttribute.Ref</xr:KeyField>
+						<xr:TypesFilterField>-1</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:nil="true"/>
+					</xr:CharacteristicTypes>
+					<xr:CharacteristicValues from="InformationRegister.ОписаниеСвойствНоменклатуры">
+						<xr:ObjectField>InformationRegister.ОписаниеСвойствНоменклатуры.Dimension.Номенклатура</xr:ObjectField>
+						<xr:TypeField>InformationRegister.ОписаниеСвойствНоменклатуры.Dimension.ВидСвойства</xr:TypeField>
+						<xr:ValueField>InformationRegister.ОписаниеСвойствНоменклатуры.Resource.Значение</xr:ValueField>
+					</xr:CharacteristicValues>
+				</xr:Characteristic>
+			</Characteristics>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
