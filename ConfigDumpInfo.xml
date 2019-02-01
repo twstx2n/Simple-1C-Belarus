@@ -34,11 +34,14 @@
 			<Metadata name="Catalog.Контрагенты.Attribute.УНП" id="840da85a-bf20-4674-afaf-64b133d1ea9b"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.РасчетныйСчет" id="e634f8c9-841a-42bb-9f3f-8f35febf7779"/>
 		</Metadata>
-		<Metadata name="Catalog.Номенклатура" id="f46fd80c-a2d0-4fbb-99ca-9b76eb065229" configVersion="ce92908581ac084b908c8affaad7f42c00000000">
+		<Metadata name="Catalog.Номенклатура" id="f46fd80c-a2d0-4fbb-99ca-9b76eb065229" configVersion="311fb189369cc749ab99db606cd5863300000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ЭтоУслуга" id="2c2379d2-43de-4792-9b8f-e3fd67d3cfb0"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ЦенаПродажи" id="41cf6ecb-3017-4eea-94ef-2e1a4bd22090"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ДанныеКартинки" id="4f419108-233e-49c3-ac23-31934e1423d6"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="9edc7d72-3e07-40c1-92c6-32bc0115f8bd"/>
 		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="75aab3ba-0ba9-45f5-be4e-6e676abe98c9" configVersion="d610cbf423b1ba459de2261edc9350d900000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="75aab3ba-0ba9-45f5-be4e-6e676abe98c9.0" configVersion="e5b4c5901194b64eb629ca7e814a4fa200000000"/>
 		<Metadata name="Catalog.Склады" id="e5b7f8f2-ee99-4f03-a897-7c6138447f47" configVersion="11fe5bf12659f74280379fe90a23bfc400000000"/>
 		<Metadata name="Catalog.Склады.Predefined" id="e5b7f8f2-ee99-4f03-a897-7c6138447f47.1c" configVersion="8a5e9863713da84cb5a68648c796915400000000"/>
 		<Metadata name="Catalog.Сотрудники" id="059fd9e5-1418-421b-a548-a7d90692f92b" configVersion="044dd45af4f64a43890e353689fe979b00000000">
@@ -52,7 +55,7 @@
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры" id="a561fe64-25da-4941-8051-3a26348b2275" configVersion="a3331c69c282e546af002162d640ce6d00000000"/>
 		<Metadata name="CommonModule.КлиентскаяРаботаСДокументами" id="94e97ba6-6782-4ee6-85b2-0edd847a866e" configVersion="97f95c0137a74046969df62ae83167ae00000000"/>
 		<Metadata name="CommonModule.КлиентскаяРаботаСДокументами.Module" id="94e97ba6-6782-4ee6-85b2-0edd847a866e.0" configVersion="245a5d097f2cdf4ba36d1fcfa810212a00000000"/>
-		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="666534a04a190a439bd2d7de76bac5d000000000"/>
+		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="ec5cf27345bc9e459d7c6b60c23511af00000000"/>
 		<Metadata name="Configuration.SimpleBY.ManagedApplicationModule" id="4b484417-6b31-454b-adca-47ff7a2dc992.6" configVersion="ca1e4bc30a9b9c4db50817f8bb2316a700000000"/>
 		<Metadata name="Document.ВходящийАкт" id="c107de13-9564-4502-b1fb-09c6191c4d13" configVersion="64b5a45ce086e149955ff9dca100d3a600000000">
 			<Metadata name="Document.ВходящийАкт.TabularSection.Услуги" id="07f66aa4-ad03-49e8-be8a-64e1f6e9ab1d"/>
