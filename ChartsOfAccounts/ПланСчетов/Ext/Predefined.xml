@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.7">
+	<Item id="71371b8b-4d4a-461d-8964-21bb3bb48692">
+		<Name>ОсновныеСредства</Name>
+		<Code>01</Code>
+		<Description>Основные средства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>01</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="0441cb21-42ad-4ec3-a616-9298dc70dbfc">
+		<Name>АмортизацияОсновныхСредств</Name>
+		<Code>02</Code>
+		<Description>Амортизация основных средств</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>02</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="1c8951d4-fe23-4354-a107-33d2b6969b52">
+		<Name>Материалы</Name>
+		<Code>10</Code>
+		<Description>Материалы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>10</Order>
+		<AccountingFlags/>
+		<ChildItems>
+			<Item id="6c42eb4e-51cc-4fb8-a07f-1a4127ddaa8d">
+				<Name>СырьеИМатериалы</Name>
+				<Code>10.1</Code>
+				<Description>Сырье и материалы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 1</Order>
+				<AccountingFlags/>
+			</Item>
+			<Item id="7186e962-4cd8-46a3-8dae-0ad56790f8e9">
+				<Name>ПокупныеПолуфабрикатыИКомплектующиеИзделия</Name>
+				<Code>10.2</Code>
+				<Description>Покупные полуфабрикаты и комплектующие изделия</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 2</Order>
+				<AccountingFlags/>
+			</Item>
+			<Item id="c74889e3-3c4a-4f72-8215-01e80b5734d7">
+				<Name>Топливо</Name>
+				<Code>10.3</Code>
+				<Description>Топливо</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 3</Order>
+				<AccountingFlags/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="94ae5478-7d36-4b3b-9e1a-206ba3cf9351">
+		<Name>Касса</Name>
+		<Code>50</Code>
+		<Description>Касса</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>50</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="d3e8454b-92eb-4fe6-8343-8eefd18ef7d2">
+		<Name>РасчетныйСчет</Name>
+		<Code>51</Code>
+		<Description>Расчетный счет</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>51</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="c3a63be0-b5d9-4c1a-aed0-d77f79e5eee3">
+		<Name>РасчетыСПоставщикамиИПодрядчиками</Name>
+		<Code>60</Code>
+		<Description>Расчеты с поставщиками и подрядчиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>60</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="880ac6bf-45bc-4799-a99c-654681eafad9">
+		<Name>РасчетыСПокупателямиИЗаказчиками</Name>
+		<Code>62</Code>
+		<Description>Расчеты с покупателями и заказчиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>62</Order>
+		<AccountingFlags/>
+	</Item>
+	<Item id="35078025-c8fc-4cc7-9c85-8f57b53b2f10">
+		<Name>ДоходыИРасходыПоТекущейДеятельности</Name>
+		<Code>90</Code>
+		<Description>Доходы и расходы по текущей деятельности</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>90</Order>
+		<AccountingFlags/>
+		<ChildItems>
+			<Item id="75432235-fbef-4e77-aac2-689d277756f9">
+				<Name>ВыручкаОтРеализацииПродукцииТоваровРаботУслуг</Name>
+				<Code>90.1</Code>
+				<Description>Выручка от реализации продукции товаров работ услу</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 1</Order>
+				<AccountingFlags/>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
