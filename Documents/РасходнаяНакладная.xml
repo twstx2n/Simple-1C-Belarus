@@ -173,7 +173,9 @@
 				</xr:StandardAttribute>
 			</StandardAttributes>
 			<Characteristics/>
-			<BasedOn/>
+			<BasedOn>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетНаОплату</xr:Item>
+			</BasedOn>
 			<InputByString>
 				<xr:Field>Document.РасходнаяНакладная.StandardAttribute.Number</xr:Field>
 			</InputByString>
