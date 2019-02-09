@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.15</Version>
+			<Version>0.0.0.0.16</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -179,6 +179,7 @@
 			<Report>АнализПродаж1</Report>
 			<Report>АнализПродаж2</Report>
 			<Report>ОСВ</Report>
+			<Report>ОстаткиТМЦ</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
 			<InformationRegister>ОписаниеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
