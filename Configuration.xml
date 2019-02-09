@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.0.14</Version>
+			<Version>0.0.0.0.15</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -187,6 +187,7 @@
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>НаличностьВКассе</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСвойствНоменклатуры</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
 			<AccountingRegister>РегистрБухгалтерии</AccountingRegister>
 		</ChildObjects>

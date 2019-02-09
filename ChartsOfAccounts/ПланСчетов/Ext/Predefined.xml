@@ -8,6 +8,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>01</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="0441cb21-42ad-4ec3-a616-9298dc70dbfc">
 		<Name>АмортизацияОсновныхСредств</Name>
@@ -17,6 +18,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>02</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="1c8951d4-fe23-4354-a107-33d2b6969b52">
 		<Name>Материалы</Name>
@@ -26,6 +28,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>10</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="6c42eb4e-51cc-4fb8-a07f-1a4127ddaa8d">
 				<Name>СырьеИМатериалы</Name>
@@ -35,6 +38,7 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 1</Order>
 				<AccountingFlags/>
+				<ExtDimensionTypes/>
 			</Item>
 			<Item id="7186e962-4cd8-46a3-8dae-0ad56790f8e9">
 				<Name>ПокупныеПолуфабрикатыИКомплектующиеИзделия</Name>
@@ -44,6 +48,7 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 2</Order>
 				<AccountingFlags/>
+				<ExtDimensionTypes/>
 			</Item>
 			<Item id="c74889e3-3c4a-4f72-8215-01e80b5734d7">
 				<Name>Топливо</Name>
@@ -53,6 +58,7 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 3</Order>
 				<AccountingFlags/>
+				<ExtDimensionTypes/>
 			</Item>
 		</ChildItems>
 	</Item>
@@ -64,6 +70,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>50</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="d3e8454b-92eb-4fe6-8343-8eefd18ef7d2">
 		<Name>РасчетныйСчет</Name>
@@ -73,6 +80,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>51</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="c3a63be0-b5d9-4c1a-aed0-d77f79e5eee3">
 		<Name>РасчетыСПоставщикамиИПодрядчиками</Name>
@@ -82,6 +90,12 @@
 		<OffBalance>false</OffBalance>
 		<Order>60</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="880ac6bf-45bc-4799-a99c-654681eafad9">
 		<Name>РасчетыСПокупателямиИЗаказчиками</Name>
@@ -91,6 +105,12 @@
 		<OffBalance>false</OffBalance>
 		<Order>62</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="35078025-c8fc-4cc7-9c85-8f57b53b2f10">
 		<Name>ДоходыИРасходыПоТекущейДеятельности</Name>
@@ -100,6 +120,7 @@
 		<OffBalance>false</OffBalance>
 		<Order>90</Order>
 		<AccountingFlags/>
+		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="75432235-fbef-4e77-aac2-689d277756f9">
 				<Name>ВыручкаОтРеализацииПродукцииТоваровРаботУслуг</Name>
@@ -109,6 +130,7 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 1</Order>
 				<AccountingFlags/>
+				<ExtDimensionTypes/>
 			</Item>
 		</ChildItems>
 	</Item>
