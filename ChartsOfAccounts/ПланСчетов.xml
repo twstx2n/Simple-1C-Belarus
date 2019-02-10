@@ -47,7 +47,7 @@
 			<MaxExtDimensionCount>2</MaxExtDimensionCount>
 			<CodeMask>@@.@@</CodeMask>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>50</DescriptionLength>
+			<DescriptionLength>200</DescriptionLength>
 			<CodeSeries>WholeChartOfAccounts</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<DefaultPresentation>AsCode</DefaultPresentation>

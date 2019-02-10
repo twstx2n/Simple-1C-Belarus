@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.7">
 	<Item id="71371b8b-4d4a-461d-8964-21bb3bb48692">
-		<Name>ОсновныеСредства</Name>
+		<Name>С01</Name>
 		<Code>01</Code>
 		<Description>Основные средства</Description>
 		<AccountType>Active</AccountType>
@@ -13,7 +13,7 @@
 		<ExtDimensionTypes/>
 	</Item>
 	<Item id="0441cb21-42ad-4ec3-a616-9298dc70dbfc">
-		<Name>АмортизацияОсновныхСредств</Name>
+		<Name>С02</Name>
 		<Code>02</Code>
 		<Description>Амортизация основных средств</Description>
 		<AccountType>Passive</AccountType>
@@ -24,8 +24,268 @@
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
+	<Item id="8194d1af-dbb4-436e-a7ee-c49f006f9a92">
+		<Name>С03</Name>
+		<Code>03</Code>
+		<Description>Доходные вложения в материальные активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>03</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="07507524-3f16-41aa-890c-6dbcfdab5c37">
+				<Name>С03с1</Name>
+				<Code>03.1</Code>
+				<Description>Инвестиционная недвижимость</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>03. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="21607faa-8873-4bb2-8478-e4ddef3d9fc9">
+				<Name>С03с2</Name>
+				<Code>03.2</Code>
+				<Description>Предметы финансовой аренды (лизинга)</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>03. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="783632a2-b535-4d2b-b1a8-963678aa2377">
+				<Name>С03с3</Name>
+				<Code>03.3</Code>
+				<Description>Прочие доходные вложения в материальные активы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>03. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="caf1b813-fad4-43a7-ad89-c7798abdbc1c">
+		<Name>С04</Name>
+		<Code>04</Code>
+		<Description>Нематериальные активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>04</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="81ea8515-1a8f-4cb9-a53b-d58088028ebb">
+		<Name>С05</Name>
+		<Code>05</Code>
+		<Description>Амортизация нематериальных активов</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>05</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="f0f9defb-837e-4ef8-9ba3-2f862431af7f">
+		<Name>С06</Name>
+		<Code>06</Code>
+		<Description>Долгосрочные финансовые вложения</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>06</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="dd204dd4-7a44-4e72-a635-38e82cc2aa42">
+				<Name>С06с1</Name>
+				<Code>06.1</Code>
+				<Description>Долгосрочные финансовые вложения в ценные бумаги</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>06. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="6d9b0f6e-1353-482d-81b3-ba56fb2171a8">
+				<Name>С06с2</Name>
+				<Code>06.2</Code>
+				<Description>Предоставленные долгосрочные займы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>06. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="407b86b9-f9ba-4659-9c75-a44b63bd2fd5">
+				<Name>С06с3</Name>
+				<Code>06.3</Code>
+				<Description>Прочие доходные вложения в материальные активы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>06. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c3a64e9a-402e-4ab5-8d07-a666dad76a67">
+		<Name>С07</Name>
+		<Code>07</Code>
+		<Description>Оборудование к установке и строительные материалы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>07</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="fe32fbf9-ea47-420e-920b-3529af1b8f74">
+				<Name>С07с1</Name>
+				<Code>07.1</Code>
+				<Description>Оборудование к установке на складе</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>07. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="12c37cbb-8c8b-47a9-a5ef-c9329bdfd9c5">
+				<Name>С07с2</Name>
+				<Code>07.2</Code>
+				<Description>Оборудование к установке, переданное в монтаж</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>07. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="b0c24cdd-0b44-4855-9040-96faa7f0d45e">
+				<Name>С07с3</Name>
+				<Code>07.3</Code>
+				<Description>Строительные материалы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>07. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="65d4f362-abe7-42ca-b7cb-d295a0d94b18">
+		<Name>С08</Name>
+		<Code>08</Code>
+		<Description>Вложения в долгосрочные активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>08</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="594f7a21-879d-4fc8-9d5e-da1b0338f1ea">
+				<Name>С08с1</Name>
+				<Code>08.1</Code>
+				<Description>Приобретение и создание основных средств</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>08. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="55d826ed-2975-4d61-8a72-89522bb9237c">
+				<Name>С08с2</Name>
+				<Code>08.2</Code>
+				<Description>Приобретение и создание инвестиционной недвижимости</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>08. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="9e03df26-5e2a-43bc-ac7a-324ae2b0daea">
+				<Name>С08с3</Name>
+				<Code>08.3</Code>
+				<Description>Приобретение предметов финансовой аренды (лизинга)</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>08. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="535e7cdc-e232-4de1-8d7f-c466c262b62c">
+				<Name>С08с4</Name>
+				<Code>08.4</Code>
+				<Description>Приобретение и создание нематериальных активов</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>08. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="46d0a9f8-1049-42a7-b9c8-3c7f38c117c5">
+				<Name>С08с5</Name>
+				<Code>08.5</Code>
+				<Description>Приобретение и создание иных долгосрочных активов</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>08. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="4f8f225e-d2dc-4cb4-922f-787c8a8d281a">
+		<Name>С09</Name>
+		<Code>09</Code>
+		<Description>Отложенные налоговые активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>09</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
 	<Item id="1c8951d4-fe23-4354-a107-33d2b6969b52">
-		<Name>Материалы</Name>
+		<Name>С10</Name>
 		<Code>10</Code>
 		<Description>Материалы</Description>
 		<AccountType>Active</AccountType>
@@ -37,7 +297,7 @@
 		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="6c42eb4e-51cc-4fb8-a07f-1a4127ddaa8d">
-				<Name>СырьеИМатериалы</Name>
+				<Name>С10с1</Name>
 				<Code>10.1</Code>
 				<Description>Сырье и материалы</Description>
 				<AccountType>Active</AccountType>
@@ -49,7 +309,7 @@
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="7186e962-4cd8-46a3-8dae-0ad56790f8e9">
-				<Name>ПокупныеПолуфабрикатыИКомплектующиеИзделия</Name>
+				<Name>С10с2</Name>
 				<Code>10.2</Code>
 				<Description>Покупные полуфабрикаты и комплектующие изделия</Description>
 				<AccountType>Active</AccountType>
@@ -61,7 +321,7 @@
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="c74889e3-3c4a-4f72-8215-01e80b5734d7">
-				<Name>Топливо</Name>
+				<Name>С10с3</Name>
 				<Code>10.3</Code>
 				<Description>Топливо</Description>
 				<AccountType>Active</AccountType>
@@ -72,10 +332,274 @@
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
+			<Item id="57ffe5f6-16ec-4838-96c2-6946fa404144">
+				<Name>С10с4</Name>
+				<Code>10.4</Code>
+				<Description>Тара и тарные материалы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="9b3953f5-fe61-47b0-a03d-cf5b9c41a655">
+				<Name>С10с5</Name>
+				<Code>10.5</Code>
+				<Description>Запасные части</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="2e23e0d3-2c10-4afb-ad86-a795bb419c6a">
+				<Name>С10с6</Name>
+				<Code>10.6</Code>
+				<Description>Прочие материалы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 6</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="3e15bb1d-c981-4a97-bece-9e3273d82063">
+				<Name>С10с7</Name>
+				<Code>10.7</Code>
+				<Description>Материалы, переданные в переработку на сторону</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 7</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="c8ab5686-9027-42a0-8f00-cfc93f4b4c8a">
+				<Name>С10с8</Name>
+				<Code>10.8</Code>
+				<Description>Временные сооружения</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 8</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="32db09d6-0bf8-4f78-bee5-7ab2193a2fee">
+				<Name>С10с9</Name>
+				<Code>10.9</Code>
+				<Description>Инвентарь и хозяйственные принадлежности, инструменты</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10. 9</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="75dbcf0b-6386-4e0c-95fd-be59aca51577">
+				<Name>С10с10</Name>
+				<Code>10.10</Code>
+				<Description>Специальная оснастка и специальная одежда на складе</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10.10</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="622a4bae-102b-4a5b-888a-88dcf8f084b6">
+				<Name>С10с11</Name>
+				<Code>10.11</Code>
+				<Description>Специальная оснастка и специальная одежда в эксплуатации</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10.11</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="ba135b83-5a3a-4554-b3e2-7f9dfae24d16">
+				<Name>С10с12</Name>
+				<Code>10.12</Code>
+				<Description>Лом и отходы, содержащие драгоценные металлы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>10.12</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
 		</ChildItems>
 	</Item>
+	<Item id="37cf8e94-5e2f-4de7-9b91-461fe914a282">
+		<Name>С11</Name>
+		<Code>11</Code>
+		<Description>Животные на выращивании и откорме</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>11</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="67c38ac8-03d5-4f7d-823a-151f03c03d60">
+		<Name>С14</Name>
+		<Code>14</Code>
+		<Description>Резервы под снижение стоимости запасов</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>14</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="5540aaa8-c945-445b-842f-074488e8d545">
+		<Name>С15</Name>
+		<Code>15</Code>
+		<Description>Заготовление и приобретение материалов</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>15</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="e160f425-2fb8-40ee-b5c4-a0f4e17fcc71">
+		<Name>С16</Name>
+		<Code>16</Code>
+		<Description>Отклонение в стоимости материалов</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>16</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="6bb2d6f9-ad21-4628-9f29-293bc3db2b37">
+		<Name>С18</Name>
+		<Code>18</Code>
+		<Description>Налог на добавленную стоимость по приобретенным товарам, работам, услугам</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>18</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="6f2015ec-3562-47a8-85d9-0558217243b4">
+		<Name>С20</Name>
+		<Code>20</Code>
+		<Description>Основное производство</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>20</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="d5f2d25e-96da-4b91-9e36-bff242b40af4">
+		<Name>С21</Name>
+		<Code>21</Code>
+		<Description>Полуфабрикаты собственного производства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>21</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="e2d00619-3320-4cde-b5c1-708f7b474dcb">
+		<Name>С22</Name>
+		<Code>22</Code>
+		<Description>Страховые выплаты</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>22</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="6e7e3b2d-5fee-4033-bb43-93d8035b1b22">
+		<Name>С23</Name>
+		<Code>23</Code>
+		<Description>Вспомогательные производства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>23</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="0e133194-ec8c-4ecb-83e0-157b3a012d3d">
+		<Name>С25</Name>
+		<Code>25</Code>
+		<Description>Общепроизводственные затраты</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>25</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="e4b219b2-d3e7-483b-a866-ca639bbd205f">
+		<Name>С26</Name>
+		<Code>26</Code>
+		<Description>Общехозяйственные затраты</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>26</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="bbcd2535-d174-4859-a71f-38237ec4e802">
+		<Name>С28</Name>
+		<Code>28</Code>
+		<Description>Брак в производстве</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>28</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="80cf562e-7cbd-44a7-acfa-aa96ef034d81">
+		<Name>С29</Name>
+		<Code>29</Code>
+		<Description>Обслуживающие производства и хозяйства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>29</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
 	<Item id="bff91f5f-30d4-4bcc-8901-740237a1f761">
-		<Name>Товары</Name>
+		<Name>С41</Name>
 		<Code>41</Code>
 		<Description>Товары</Description>
 		<AccountType>Active</AccountType>
@@ -100,7 +624,7 @@
 		</ExtDimensionTypes>
 		<ChildItems>
 			<Item id="9d9b34f3-93e3-4ac9-9542-4f790dfdc335">
-				<Name>ТоварыНаСкладах</Name>
+				<Name>С41с1</Name>
 				<Code>41.1</Code>
 				<Description>Товары на складах</Description>
 				<AccountType>Active</AccountType>
@@ -124,10 +648,130 @@
 					</ExtDimensionType>
 				</ExtDimensionTypes>
 			</Item>
+			<Item id="00170a8a-0a66-4dab-ace0-1d2e32ec6f90">
+				<Name>С41с2</Name>
+				<Code>41.2</Code>
+				<Description>Товары в розничной торговле</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>41. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="c2f3f665-5f99-43a0-a2fd-9501606d602f">
+				<Name>С41с3</Name>
+				<Code>41.3</Code>
+				<Description>Тара под товаром и порожняя</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>41. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="f1cfe362-ce15-4035-b5f9-3aef4d502ef0">
+				<Name>С41с4</Name>
+				<Code>41.4</Code>
+				<Description>Покупные изделия</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>41. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="b1c9b9d4-42e8-4b79-91ee-47b4fe4f4ab5">
+				<Name>С41с5</Name>
+				<Code>41.5</Code>
+				<Description>Товары, переданные для подготовки на сторону</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>41. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="98ce4bd6-cbea-49ec-b40e-484f260c9356">
+				<Name>С41с6</Name>
+				<Code>41.6</Code>
+				<Description>Предметы проката</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>41. 6</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
 		</ChildItems>
 	</Item>
+	<Item id="f9d28256-dbbd-4fdd-bfa6-e0936aa1915e">
+		<Name>С42</Name>
+		<Code>42</Code>
+		<Description>Торговая наценка</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>42</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="d7f93c0d-1907-4137-9f66-4a4308befb68">
+		<Name>С43</Name>
+		<Code>43</Code>
+		<Description>Готовая продукция</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>43</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="0f0e78e1-059b-4f32-a35c-85945e0aa2a5">
+		<Name>С44</Name>
+		<Code>44</Code>
+		<Description>Расходы на реализацию</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>44</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="becaf382-2031-43cf-9ce2-cab621f8767c">
+		<Name>С45</Name>
+		<Code>45</Code>
+		<Description>Товары отгруженные</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>45</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="c704cb06-f15f-4ca0-ae8c-1f26e9a9c063">
+		<Name>С47</Name>
+		<Code>47</Code>
+		<Description>Долгосрочные активы, предназначенные для реализации</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>47</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
 	<Item id="94ae5478-7d36-4b3b-9e1a-206ba3cf9351">
-		<Name>Касса</Name>
+		<Name>С50</Name>
 		<Code>50</Code>
 		<Description>Касса</Description>
 		<AccountType>Active</AccountType>
@@ -139,7 +783,7 @@
 		<ExtDimensionTypes/>
 	</Item>
 	<Item id="d3e8454b-92eb-4fe6-8343-8eefd18ef7d2">
-		<Name>РасчетныйСчет</Name>
+		<Name>С51</Name>
 		<Code>51</Code>
 		<Description>Расчетный счет</Description>
 		<AccountType>Active</AccountType>
@@ -150,8 +794,182 @@
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
+	<Item id="40bb8cb9-ba30-48c3-82c2-608e08010bf1">
+		<Name>С52</Name>
+		<Code>52</Code>
+		<Description>Валютные счета</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>52</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="abb6f6cf-e48c-4e92-a3e9-90a247d829b3">
+		<Name>С55</Name>
+		<Code>55</Code>
+		<Description>Специальные счета в банках</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>55</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="125c01e9-b412-469a-8320-d1e9829a6b48">
+				<Name>С55с1</Name>
+				<Code>55.1</Code>
+				<Description>Депозитные счета</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>55. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="098bd73b-1f0b-4c07-8372-e3bec57f59e3">
+				<Name>С55с2</Name>
+				<Code>55.2</Code>
+				<Description>Счета в драгоценных металлах</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>55. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="eea12b4a-1a6c-43bb-be13-3162bb9d0476">
+				<Name>С55с3</Name>
+				<Code>55.3</Code>
+				<Description>Специальный счет денежных средств целевого назначения</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>55. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="6aaed8fd-8886-4689-a84e-cd5b81a9849f">
+		<Name>С57</Name>
+		<Code>57</Code>
+		<Description>Денежные средства в пути</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>57</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="16129171-4513-4ccc-829c-b88a9fc632a0">
+				<Name>С57с1</Name>
+				<Code>57.1</Code>
+				<Description>Инкассированные денежные средства</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>57. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="62774b65-8eab-4ad3-aeda-a4b9517f568d">
+				<Name>С57с2</Name>
+				<Code>57.2</Code>
+				<Description>Денежные средства для приобретения иностранной валюты</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>57. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="13f6e923-7fa9-4c15-a7d7-20442e9ec9ad">
+				<Name>С57с3</Name>
+				<Code>57.3</Code>
+				<Description>Денежные средства в иностранных валютах для реализации</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>57. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="541f4a2e-0c6a-454a-a5d6-5397b6bd28bc">
+		<Name>С58</Name>
+		<Code>58</Code>
+		<Description>Краткосрочные финансовые вложения</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>58</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="e81416f9-f109-4314-92d5-8568d58415e9">
+				<Name>С58с1</Name>
+				<Code>58.1</Code>
+				<Description>Краткосрочные финансовые вложения в ценные бумаги</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>58. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="b2ba9b37-c8b2-44a6-a108-bfb1dd719001">
+				<Name>С58с2</Name>
+				<Code>58.2</Code>
+				<Description>Денежные средства для приобретения иностранной валюты</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>58. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="2908eb62-be92-4b9c-a83f-a208b2642cd0">
+				<Name>С58с3</Name>
+				<Code>58.3</Code>
+				<Description>Денежные средства в иностранных валютах для реализации</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>58. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="638a88fc-8dd0-45ec-9443-d0575991c11f">
+		<Name>С59</Name>
+		<Code>59</Code>
+		<Description>Резервы под обесценение краткосрочных финансовых вложений</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>59</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
 	<Item id="c3a63be0-b5d9-4c1a-aed0-d77f79e5eee3">
-		<Name>РасчетыСПоставщикамиИПодрядчиками</Name>
+		<Name>С60</Name>
 		<Code>60</Code>
 		<Description>Расчеты с поставщиками и подрядчиками</Description>
 		<AccountType>ActivePassive</AccountType>
@@ -170,7 +988,7 @@
 		</ExtDimensionTypes>
 	</Item>
 	<Item id="880ac6bf-45bc-4799-a99c-654681eafad9">
-		<Name>РасчетыСПокупателямиИЗаказчиками</Name>
+		<Name>С62</Name>
 		<Code>62</Code>
 		<Description>Расчеты с покупателями и заказчиками</Description>
 		<AccountType>ActivePassive</AccountType>
@@ -188,8 +1006,512 @@
 			</ExtDimensionType>
 		</ExtDimensionTypes>
 	</Item>
+	<Item id="f7453d12-0b3d-47a4-aaec-99e64f55d608">
+		<Name>С63</Name>
+		<Code>63</Code>
+		<Description>Резервы по сомнительным долгам</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>63</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="3c8426c7-b2e5-42ab-9dcb-8307970a0f05">
+		<Name>С65</Name>
+		<Code>65</Code>
+		<Description>Отложенные налоговые обязательства</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>65</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="11c7ac5a-02fe-4f70-b19c-0a01b3ab88b5">
+		<Name>С66</Name>
+		<Code>66</Code>
+		<Description>Расчеты по краткосрочным кредитам и займам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>66</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="2a6faf54-3b6a-4634-9c8a-ecc9a89e03a9">
+				<Name>С66с1</Name>
+				<Code>66.1</Code>
+				<Description>Расчеты по краткосрочным кредитам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>66. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="4e912bbb-924a-4a19-8f81-ca9de6a1e634">
+				<Name>С66с2</Name>
+				<Code>66.2</Code>
+				<Description>Расчеты по краткосрочным займам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>66. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="68725e66-d029-4535-bb44-a6480b8375bf">
+				<Name>С66с3</Name>
+				<Code>66.3</Code>
+				<Description>ы ¶Расчеты по процентам по краткосрочным кредитам и займам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>66. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="dd4e57b6-7b14-48e2-bd45-f1b77d47c2ba">
+		<Name>С67</Name>
+		<Code>67</Code>
+		<Description>Расчеты по долгосрочным кредитам и займам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>67</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="97c110bd-7cd9-4016-bcae-0943d5a12125">
+				<Name>С67с1</Name>
+				<Code>67.1</Code>
+				<Description>Расчеты по долгосрочным кредитам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>67. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="f4c2fed6-e039-4546-883d-fb26d9342531">
+				<Name>С67с2</Name>
+				<Code>67.2</Code>
+				<Description>Расчеты по долгосрочным займам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>67. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="321ce1a7-92e0-4ba4-b94b-f69f1b80620f">
+				<Name>С67с3</Name>
+				<Code>67.3</Code>
+				<Description>Расчеты по процентам по долгосрочным кредитам и займам</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>67. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="230fc553-5cdd-49d4-82ad-72f0b53a1463">
+		<Name>С68</Name>
+		<Code>68</Code>
+		<Description>Расчеты по налогам и сборам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>68</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="6dbf31a6-d8d7-4ec0-9d64-fb0a226ef098">
+				<Name>С68с1</Name>
+				<Code>68.1</Code>
+				<Description>Расчеты по налогам и сборам, относимым на затраты по производству и реализации продукции, товаров, работ, услуг</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>68. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="dd1b62cc-6b78-4470-bf46-b3582742d271">
+				<Name>С68с2</Name>
+				<Code>68.2</Code>
+				<Description>Расчеты по налогам и сборам, исчисляемым из выручки от реализации продукции, товаров, работ, услуг</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>68. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="7d5c0a62-4820-4328-8dfe-3aaa7f50ff80">
+				<Name>С68с3</Name>
+				<Code>68.3</Code>
+				<Description>Расчеты по налогам и сборам, исчисляемым из прибыли (дохода)</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>68. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="b7cf5dc7-89dd-49cf-9826-8a2edf1f22fc">
+				<Name>С68с4</Name>
+				<Code>68.4</Code>
+				<Description>Расчеты по подоходному налогу</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>68. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="2cff05e8-9255-4618-8b00-a4792d61f270">
+				<Name>С68с5</Name>
+				<Code>68.5</Code>
+				<Description>Расчеты по прочим платежам в бюджет</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>68. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="f4cef9d3-89b5-4f38-a6c7-b2fb8736abbf">
+		<Name>С69</Name>
+		<Code>69</Code>
+		<Description>Расчеты по социальному страхованию и обеспечению</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>69</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="5994d3b7-ca80-45f0-b32a-12337e6e44c7">
+		<Name>С70</Name>
+		<Code>70</Code>
+		<Description>Расчеты с персоналом по оплате труда</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>70</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="52fc46f0-fecc-49c3-8de1-54c0fd066891">
+		<Name>С71</Name>
+		<Code>71</Code>
+		<Description>Расчеты с подотчетными лицами</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>71</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="1ed47677-d1f4-420b-bbd9-878090a7f131">
+		<Name>С73</Name>
+		<Code>73</Code>
+		<Description>Расчеты с персоналом по прочим операциям</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>73</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="63ad61b2-9075-4cae-aab6-c6a9ace80871">
+				<Name>С73с1</Name>
+				<Code>73.1</Code>
+				<Description>Расчеты по предоставленным займам</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>73. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="85e33ac9-8fb5-4f42-8fc8-b4c1c5de7697">
+				<Name>С73с2</Name>
+				<Code>73.2</Code>
+				<Description>Расчеты по возмещению ущерба</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>73. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="99252988-cac5-4deb-93ef-4026f5ccaaa1">
+		<Name>С75</Name>
+		<Code>75</Code>
+		<Description>Расчеты с учредителями</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>75</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="014767cb-f409-49b0-a34a-98f30b100be6">
+				<Name>С75с1</Name>
+				<Code>75.1</Code>
+				<Description>Расчеты по вкладам в уставный капитал</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>75. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="555419b7-fad2-4e8b-b1b3-c8bc3b7c3565">
+				<Name>С75с2</Name>
+				<Code>75.2</Code>
+				<Description>Расчеты по выплате дивидендов и других доходов</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>75. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="44fa829a-32f6-4290-a946-6c56ab0925fb">
+		<Name>С76</Name>
+		<Code>76</Code>
+		<Description>Расчеты с разными дебиторами и кредиторами</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>76</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="5508a743-83e3-4bf7-a66b-b8ca856a5a1a">
+				<Name>С76с1</Name>
+				<Code>76.1</Code>
+				<Description>Расчеты по исполнительным документам</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="40aa0b33-9643-41d7-a1d4-dea78b0801ad">
+				<Name>С76с2</Name>
+				<Code>76.2</Code>
+				<Description> Расчеты по имущественному и личному страхованию</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="55741d0d-81aa-47cc-a863-74bdf7782a03">
+				<Name>С76с3</Name>
+				<Code>76.3</Code>
+				<Description>Расчеты по претензиям</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="54c55e94-4217-4dca-928c-301613df7bdf">
+				<Name>С76с4</Name>
+				<Code>76.4</Code>
+				<Description>Расчеты по причитающимся дивидендам и другим доходам</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="fda5811f-113a-4862-a242-23af6ae09170">
+				<Name>С76с5</Name>
+				<Code>76.5</Code>
+				<Description>Расчеты по депонированным суммам</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="084e9f36-dbe3-4bdb-bff5-ebfeea461342">
+				<Name>С76с6</Name>
+				<Code>76.6</Code>
+				<Description>Расчеты по договору доверительного управления имуществом</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 6</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="bc285682-a6cb-47c7-a5eb-6df11e8ebe0c">
+				<Name>С76с7</Name>
+				<Code>76.7</Code>
+				<Description>Расчеты, связанные с выбывающей группой</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>76. 7</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="70a41210-862c-42e6-a2f0-959573786d6a">
+		<Name>С77</Name>
+		<Code>77</Code>
+		<Description>Расчеты по прямому страхованию и перестрахованию</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>77</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="9a5ef24c-ac89-4934-b4c9-c376abf530ea">
+		<Name>С79</Name>
+		<Code>79</Code>
+		<Description>Внутрихозяйственные расчеты</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>79</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="6f8f88c2-61b0-4043-b0a8-1c7b5b4e7880">
+		<Name>С80</Name>
+		<Code>80</Code>
+		<Description>Уставный капитал</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>80</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="51a6adb1-13e4-49c1-a4d4-e921b0ab460c">
+		<Name>С81</Name>
+		<Code>81</Code>
+		<Description>Собственные акции (доли в уставном капитале)</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>81</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="5dae5bb8-495e-4bde-95cd-b8b6a3d00bfc">
+		<Name>С82</Name>
+		<Code>82</Code>
+		<Description>Резервный капитал</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>82</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="8dde7303-dbde-4adf-95fb-5c1ea1bdf977">
+		<Name>С83</Name>
+		<Code>83</Code>
+		<Description>Добавочный капитал</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>83</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="e4703b37-6c62-4e33-90ac-5e6b12c5c874">
+		<Name>С84</Name>
+		<Code>84</Code>
+		<Description>Нераспределенная прибыль (непокрытый убыток)</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>84</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="8f323d81-612b-43ae-b64d-9a5f71d3276b">
+		<Name>С86</Name>
+		<Code>86</Code>
+		<Description>Целевое финансирование</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>86</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
 	<Item id="35078025-c8fc-4cc7-9c85-8f57b53b2f10">
-		<Name>ДоходыИРасходыПоТекущейДеятельности</Name>
+		<Name>С90</Name>
 		<Code>90</Code>
 		<Description>Доходы и расходы по текущей деятельности</Description>
 		<AccountType>ActivePassive</AccountType>
@@ -201,9 +1523,9 @@
 		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="75432235-fbef-4e77-aac2-689d277756f9">
-				<Name>ВыручкаОтРеализацииПродукцииТоваровРаботУслуг</Name>
+				<Name>С90с1</Name>
 				<Code>90.1</Code>
-				<Description>Выручка от реализации продукции товаров работ услу</Description>
+				<Description>Выручка от реализации продукции, товаров, работ, услуг</Description>
 				<AccountType>ActivePassive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>90. 1</Order>
@@ -212,8 +1534,32 @@
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
+			<Item id="f92ffe33-c2d7-44bf-93f8-d9e39847c520">
+				<Name>С90с2</Name>
+				<Code>90.2</Code>
+				<Description>Налог на добавленную стоимость, исчисляемый из выручки от реализации продукции, товаров, работ, услуг</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="a889f872-25db-4108-9a8b-83974c42d04d">
+				<Name>С90с3</Name>
+				<Code>90.3</Code>
+				<Description>Прочие налоги и сборы, исчисляемые из выручки от реализации продукции, товаров, работ, услуг</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
 			<Item id="4af82b08-24e0-42a8-b221-da7475581a0e">
-				<Name>СебестоимостьРеализованнойПродукции</Name>
+				<Name>С90с4</Name>
 				<Code>90.4</Code>
 				<Description>Себестоимость реализованной продукции, товаров,</Description>
 				<AccountType>ActivePassive</AccountType>
@@ -224,6 +1570,248 @@
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
+			<Item id="4ffef5d8-bb67-47f6-a963-b0555e9c3d29">
+				<Name>С90с5</Name>
+				<Code>90.5</Code>
+				<Description>Управленческие расходы</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="65fd3deb-922e-4aca-ac20-7f0f38bb67c6">
+				<Name>С90с6</Name>
+				<Code>90.6</Code>
+				<Description>Расходы на реализацию</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 6</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="6db2e6eb-4a7e-4d9c-a957-0099e03abc8d">
+				<Name>С90с7</Name>
+				<Code>90.7</Code>
+				<Description>Прочие доходы по текущей деятельности</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 7</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="d135143e-51c5-40f6-be53-692791ffe529">
+				<Name>С90с8</Name>
+				<Code>90.8</Code>
+				<Description>Налог на добавленную стоимость, исчисляемый от прочих доходов по текущей деятельности</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 8</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="b59ce416-e81d-42a8-8fe1-56bb47904067">
+				<Name>С90с9</Name>
+				<Code>90.9</Code>
+				<Description>Прочие налоги и сборы, исчисляемые от прочих доходов по текущей деятельности</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90. 9</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="d3c2933b-0a9b-486f-a7a1-c51aa2119ecc">
+				<Name>С90с10</Name>
+				<Code>90.10</Code>
+				<Description>Прочие расходы по текущей деятельности</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.10</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="69e1bdfa-e24a-48a8-a482-43d96f62e637">
+				<Name>С90с11</Name>
+				<Code>90.11</Code>
+				<Description>Прибыль (убыток) от текущей деятельности</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.11</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
 		</ChildItems>
+	</Item>
+	<Item id="85be5e2d-3c86-406f-9c8b-8d2f2e538e61">
+		<Name>С91</Name>
+		<Code>91</Code>
+		<Description>Прочие доходы и расходы</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>91</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="ef892ff6-4410-4bc0-a853-58a3180ec4f9">
+				<Name>С91с1</Name>
+				<Code>91.1</Code>
+				<Description> Прочие доходы</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>91. 1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="934f1e63-209f-40af-b684-6bb18b4f63bf">
+				<Name>С91с2</Name>
+				<Code>91.2</Code>
+				<Description>Налог на добавленную стоимость</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>91. 2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="d30220a1-aebd-4e2d-9de8-e19f9a942306">
+				<Name>С91с3</Name>
+				<Code>91.3</Code>
+				<Description>Прочие налоги и сборы, исчисляемые от прочих доходов</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>91. 3</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="dda62b67-5447-4c41-9194-24a52544bc0a">
+				<Name>С91с4</Name>
+				<Code>91.4</Code>
+				<Description>Прочие расходы</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>91. 4</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="1b2e85d7-90ce-4427-9613-4ab39588a54c">
+				<Name>С91с5</Name>
+				<Code>91.5</Code>
+				<Description>Сальдо прочих доходов и расходов</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>91. 5</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="fb448335-bd20-4db6-a0a7-8d3efc758358">
+		<Name>С93</Name>
+		<Code>93</Code>
+		<Description>Страховые взносы (премии)</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>93</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="620c2c23-9f86-4bd9-9413-eb36641e81b8">
+		<Name>С94</Name>
+		<Code>94</Code>
+		<Description>Недостачи и потери от порчи имущества</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>94</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="a7d8cf3b-ac51-4132-8999-a3e4db0510d7">
+		<Name>С95</Name>
+		<Code>95</Code>
+		<Description>Страховые резервы</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>95</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="d6c68c18-1436-45fa-8ffc-be9542d7c6c1">
+		<Name>С96</Name>
+		<Code>96</Code>
+		<Description>Резервы предстоящих платежей</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>96</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="8500e491-bb39-4c90-8830-322024f732ff">
+		<Name>С97</Name>
+		<Code>97</Code>
+		<Description>Расходы будущих периодов</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>97</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="03b7730f-42b0-4dc4-b000-53d3715bcbde">
+		<Name>С98</Name>
+		<Code>98</Code>
+		<Description>Доходы будущих периодов</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>98</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="d696cc7c-d55e-4ba1-8276-86e14a9e9ed2">
+		<Name>С99</Name>
+		<Code>99</Code>
+		<Description>Прибыли и убытки</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>99</Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
 	</Item>
 </PredefinedData>
