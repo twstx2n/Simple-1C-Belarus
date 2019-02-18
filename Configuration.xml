@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.1.0</Version>
+			<Version>0.0.0.1.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -158,7 +158,9 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>КассаИБанк</Subsystem>
+			<Subsystem>Зарплата</Subsystem>
 			<CommonModule>КлиентскаяРаботаСДокументами</CommonModule>
+			<CommonModule>Расчет</CommonModule>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Договора</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -166,7 +168,6 @@
 			<Catalog>ЕдиницыИзмерений</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
-			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
 			<Catalog>РасчетныеСчета</Catalog>
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
@@ -178,6 +179,7 @@
 			<Document>ОперацияБух</Document>
 			<Document>Платежки</Document>
 			<Document>ВходящиеПлатежи</Document>
+			<Document>ВводПроизвольныхНачислений</Document>
 			<Enum>ПолСотрудника</Enum>
 			<Report>ОстаткиТоваров</Report>
 			<Report>АнализПродаж1</Report>
@@ -185,16 +187,16 @@
 			<Report>ОСВ</Report>
 			<Report>ОстаткиТМЦ</Report>
 			<InformationRegister>ПропискаСотрудника</InformationRegister>
-			<InformationRegister>ОписаниеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>РасчетыСПокупателями</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>НаличностьВКассе</AccumulationRegister>
-			<ChartOfCharacteristicTypes>ВидыСвойствНоменклатуры</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
 			<AccountingRegister>РегистрБухгалтерии</AccountingRegister>
+			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
+			<CalculationRegister>ЖурналНачислений</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
