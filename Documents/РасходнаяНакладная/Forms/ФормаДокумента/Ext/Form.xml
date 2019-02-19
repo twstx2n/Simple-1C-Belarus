@@ -3,7 +3,15 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПечать" id="44">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Печать</CommandName>
+				<ExtendedTooltip name="ФормаПечатьРасширеннаяПодсказка" id="45"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -124,4 +132,21 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Печать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать</Action>
+		</Command>
+	</Commands>
 </Form>
