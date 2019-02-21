@@ -6,4 +6,19 @@
 		<Description>Оклад суммой</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
+	<Item id="d6dc9eb1-237f-40cd-9050-2e603113b408">
+		<Name>ПремияПроцентом</Name>
+		<Code>2</Code>
+		<Description>Премия процентом</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.Начисления.ОкладСуммой</CalculationType>
+		</Base>
+	</Item>
+	<Item id="c17d3dde-8df8-44eb-a51d-654af508251d">
+		<Name>ПремияСуммой</Name>
+		<Code>3</Code>
+		<Description>Премия суммой</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
 </PredefinedData>

@@ -17,6 +17,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ЮрЛицо" id="44">
+			<DataPath>Объект.ЮрЛицо</DataPath>
+			<ContextMenu name="ЮрЛицоКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="ЮрЛицоРасширеннаяПодсказка" id="46"/>
+		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -108,6 +113,24 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ТоварыСтавкаНДС" id="47">
+					<DataPath>Объект.Товары.СтавкаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыСтавкаНДСКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ТоварыСтавкаНДСРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ТоварыСуммаНДС" id="50">
+					<DataPath>Объект.Товары.СуммаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыСуммаНДСКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ТоварыСуммаНДСРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ТоварыСуммаСНДС" id="53">
+					<DataPath>Объект.Товары.СуммаСНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="55"/>
 				</InputField>
 			</ChildItems>
 		</Table>

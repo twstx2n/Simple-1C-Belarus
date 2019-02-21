@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.1.2</Version>
+			<Version>0.0.0.1.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -169,6 +169,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>РасчетныеСчета</Catalog>
+			<Catalog>ЮрЛица</Catalog>
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
@@ -181,6 +182,8 @@
 			<Document>ВходящиеПлатежи</Document>
 			<Document>ВводПроизвольныхНачислений</Document>
 			<Enum>ПолСотрудника</Enum>
+			<Enum>СтавкиНДС</Enum>
+			<Enum>УчетСтоимости</Enum>
 			<Report>ОстаткиТоваров</Report>
 			<Report>АнализПродаж1</Report>
 			<Report>АнализПродаж2</Report>

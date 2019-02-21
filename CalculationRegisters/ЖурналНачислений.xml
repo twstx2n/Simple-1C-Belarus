@@ -45,7 +45,7 @@
 			<AuxiliaryListForm/>
 			<Periodicity>Month</Periodicity>
 			<ActionPeriod>false</ActionPeriod>
-			<BasePeriod>false</BasePeriod>
+			<BasePeriod>true</BasePeriod>
 			<Schedule/>
 			<ScheduleValue/>
 			<ScheduleDate/>

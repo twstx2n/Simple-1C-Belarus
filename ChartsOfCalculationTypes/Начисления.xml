@@ -81,8 +81,10 @@
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<BasedOn/>
-			<DependenceOnCalculationTypes>DontUse</DependenceOnCalculationTypes>
-			<BaseCalculationTypes/>
+			<DependenceOnCalculationTypes>OnRegistrationPeriod</DependenceOnCalculationTypes>
+			<BaseCalculationTypes>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.Начисления</xr:Item>
+			</BaseCalculationTypes>
 			<ActionPeriodUse>false</ActionPeriodUse>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
