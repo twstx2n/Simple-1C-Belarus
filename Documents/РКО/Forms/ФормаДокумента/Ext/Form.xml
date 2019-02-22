@@ -21,6 +21,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ЮрЛицо" id="13">
+			<DataPath>Объект.ЮрЛицо</DataPath>
+			<ContextMenu name="ЮрЛицоКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЮрЛицоРасширеннаяПодсказка" id="15"/>
+		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>

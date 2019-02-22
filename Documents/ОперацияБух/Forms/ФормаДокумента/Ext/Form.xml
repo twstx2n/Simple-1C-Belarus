@@ -17,6 +17,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="ЮрЛицо" id="60">
+			<DataPath>Объект.ЮрЛицо</DataPath>
+			<ContextMenu name="ЮрЛицоКонтекстноеМеню" id="61"/>
+			<ExtendedTooltip name="ЮрЛицоРасширеннаяПодсказка" id="62"/>
+		</InputField>
 		<Table name="ДвиженияРегистрБухгалтерии" id="7">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
