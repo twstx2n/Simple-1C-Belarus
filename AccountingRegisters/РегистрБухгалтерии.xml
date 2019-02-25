@@ -133,7 +133,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Balance>true</Balance>
 					<AccountingFlag/>
-					<ExtDimensionAccountingFlag>ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой</ExtDimensionAccountingFlag>
+					<ExtDimensionAccountingFlag>ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет</ExtDimensionAccountingFlag>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
@@ -175,7 +175,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Balance>false</Balance>
-					<AccountingFlag>ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный</AccountingFlag>
+					<AccountingFlag>ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет</AccountingFlag>
 					<ExtDimensionAccountingFlag/>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>

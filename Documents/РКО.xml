@@ -61,9 +61,9 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыСПокупателями</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НаличностьВКассе</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.РегистрБухгалтерии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НаличностьВКассе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыСПокупателями</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -80,7 +80,7 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a94a6a98-82a0-4886-93b4-48584436ab16">
+			<Attribute uuid="27eceff0-3000-4c0b-9369-b3167f3a9a5a">
 				<Properties>
 					<Name>ЮрЛицо</Name>
 					<Synonym>
@@ -104,7 +104,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Catalog.ЮрЛица.ОсновнаяОрганизация</FillValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

@@ -39,6 +39,18 @@
 			<dataPath>Оборот.Кт</dataPath>
 			<field>СуммаОборотКт</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЮрЛицо</dataPath>
+			<field>ЮрЛицо</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	РегистрБухгалтерииОстаткиИОбороты.Счет КАК Счет,
@@ -49,7 +61,7 @@
 	РегистрБухгалтерииОстаткиИОбороты.СуммаКонечныйОстатокДт КАК СуммаКонечныйОстатокДт,
 	РегистрБухгалтерииОстаткиИОбороты.СуммаКонечныйОстатокКт КАК СуммаКонечныйОстатокКт
 ИЗ
-	РегистрБухгалтерии.РегистрБухгалтерии.ОстаткиИОбороты КАК РегистрБухгалтерииОстаткиИОбороты</query>
+	РегистрБухгалтерии.РегистрБухгалтерии.ОстаткиИОбороты(, , , , , , {ЮрЛицо = &amp;ЮрЛицо}) КАК РегистрБухгалтерииОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СальдоКонечное.Дт</dataPath>
@@ -127,6 +139,20 @@
 		</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
+	<parameter>
+		<name>ЮрЛицо</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Юр лицо</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЮрЛица</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -171,6 +197,12 @@
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisQuarter</v8:variant>
 					</dcscor:value>
 					<dcsset:userSettingID>ed980864-05e4-45b4-a7b6-df15b2a6ae26</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЮрЛицо</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>ed6786a1-6167-40f9-8a03-28e4da3ac03c</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>

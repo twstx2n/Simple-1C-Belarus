@@ -8,7 +8,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>01</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -20,7 +21,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>02</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -32,7 +34,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>03</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -44,7 +47,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>03. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -56,7 +60,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>03. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -68,7 +73,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>03. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -82,7 +88,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>04</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -94,7 +101,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>05</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -106,7 +114,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>06</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -118,7 +127,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>06. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -130,7 +140,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>06. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -142,7 +153,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>06. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -156,7 +168,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>07</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -168,7 +181,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>07. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -180,7 +194,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>07. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -192,7 +207,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>07. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -206,7 +222,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>08</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -218,7 +235,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>08. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -230,7 +248,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>08. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -242,7 +261,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>08. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -254,7 +274,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>08. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -266,7 +287,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>08. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -280,7 +302,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>09</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -292,7 +315,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>10</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -304,7 +328,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -316,7 +341,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -328,7 +354,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -340,7 +367,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -352,7 +380,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -364,7 +393,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 6</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -376,7 +406,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 7</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -388,7 +419,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 8</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -400,7 +432,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 9</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -412,7 +445,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10.10</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -424,7 +458,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10.11</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -436,7 +471,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>10.12</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -450,7 +486,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>11</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -458,11 +495,12 @@
 		<Name>С14</Name>
 		<Code>14</Code>
 		<Description>Резервы под снижение стоимости запасов</Description>
-		<AccountType>Active</AccountType>
+		<AccountType>ActivePassive</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>14</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -470,11 +508,12 @@
 		<Name>С15</Name>
 		<Code>15</Code>
 		<Description>Заготовление и приобретение материалов</Description>
-		<AccountType>Active</AccountType>
+		<AccountType>ActivePassive</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>15</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -482,11 +521,12 @@
 		<Name>С16</Name>
 		<Code>16</Code>
 		<Description>Отклонение в стоимости материалов</Description>
-		<AccountType>Active</AccountType>
+		<AccountType>ActivePassive</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>16</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -498,7 +538,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>18</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -510,7 +551,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>20</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -522,7 +564,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>21</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -534,7 +577,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>22</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -546,7 +590,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>23</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -558,7 +603,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>25</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -570,7 +616,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>26</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -582,7 +629,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>28</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -594,7 +642,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>29</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -606,22 +655,10 @@
 		<OffBalance>false</OffBalance>
 		<Order>41</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">true</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
-				<Turnover>false</Turnover>
-				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
-				</AccountingFlags>
-			</ExtDimensionType>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Склады">
-				<Turnover>false</Turnover>
-				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">false</Flag>
-				</AccountingFlags>
-			</ExtDimensionType>
-		</ExtDimensionTypes>
+		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="9d9b34f3-93e3-4ac9-9542-4f790dfdc335">
 				<Name>С41с1</Name>
@@ -631,19 +668,24 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes>
 					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
-							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
 						</AccountingFlags>
 					</ExtDimensionType>
 					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Склады">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
-							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">false</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
 						</AccountingFlags>
 					</ExtDimensionType>
 				</ExtDimensionTypes>
@@ -656,7 +698,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -668,7 +711,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -680,7 +724,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -692,7 +737,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -704,7 +750,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>41. 6</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -718,7 +765,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>42</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -730,7 +778,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>43</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -742,7 +791,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>44</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -754,7 +804,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>45</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -766,7 +817,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>47</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -778,7 +830,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>50</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -790,7 +843,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>51</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -802,7 +856,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>52</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -814,7 +869,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>55</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -826,7 +882,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>55. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -838,7 +895,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>55. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -850,7 +908,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>55. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -864,7 +923,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>57</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -876,7 +936,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>57. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -888,7 +949,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>57. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -900,7 +962,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>57. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -914,7 +977,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>58</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -926,7 +990,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>58. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -938,7 +1003,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>58. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -950,7 +1016,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>58. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -964,7 +1031,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>59</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -976,16 +1044,10 @@
 		<OffBalance>false</OffBalance>
 		<Order>60</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
-				<Turnover>false</Turnover>
-				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
-				</AccountingFlags>
-			</ExtDimensionType>
-		</ExtDimensionTypes>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="880ac6bf-45bc-4799-a99c-654681eafad9">
 		<Name>С62</Name>
@@ -995,16 +1057,10 @@
 		<OffBalance>false</OffBalance>
 		<Order>62</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes>
-			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
-				<Turnover>false</Turnover>
-				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.Суммовой">true</Flag>
-				</AccountingFlags>
-			</ExtDimensionType>
-		</ExtDimensionTypes>
+		<ExtDimensionTypes/>
 	</Item>
 	<Item id="f7453d12-0b3d-47a4-aaec-99e64f55d608">
 		<Name>С63</Name>
@@ -1014,7 +1070,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>63</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1026,7 +1083,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>65</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1038,7 +1096,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>66</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1050,7 +1109,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>66. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1062,7 +1122,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>66. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1074,7 +1135,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>66. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1088,7 +1150,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>67</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1100,7 +1163,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>67. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1112,7 +1176,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>67. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1124,7 +1189,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>67. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1138,7 +1204,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>68</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1150,7 +1217,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>68. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1162,7 +1230,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>68. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1174,7 +1243,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>68. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1186,7 +1256,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>68. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1198,7 +1269,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>68. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1212,7 +1284,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>69</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1224,7 +1297,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>70</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1236,7 +1310,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>71</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1248,7 +1323,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>73</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1260,7 +1336,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>73. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1272,7 +1349,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>73. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1286,7 +1364,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>75</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1298,7 +1377,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>75. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1310,7 +1390,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>75. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1324,7 +1405,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>76</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1336,7 +1418,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1348,7 +1431,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1360,7 +1444,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1372,7 +1457,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1384,7 +1470,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1396,7 +1483,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 6</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1408,7 +1496,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>76. 7</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1422,7 +1511,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>77</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1434,7 +1524,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>79</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1446,7 +1537,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>80</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1458,7 +1550,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>81</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1470,7 +1563,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>82</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1482,7 +1576,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>83</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1494,7 +1589,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>84</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1506,7 +1602,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>86</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1518,7 +1615,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>90</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1530,7 +1628,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1542,7 +1641,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1554,7 +1654,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1566,7 +1667,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1578,7 +1680,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1590,7 +1693,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 6</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1602,7 +1706,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 7</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1614,7 +1719,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 8</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1626,7 +1732,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90. 9</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1638,7 +1745,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90.10</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1650,7 +1758,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>90.11</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1664,7 +1773,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>91</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
@@ -1676,7 +1786,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>91. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1688,7 +1799,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>91. 2</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1700,7 +1812,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>91. 3</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1712,7 +1825,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>91. 4</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1724,7 +1838,8 @@
 				<OffBalance>false</OffBalance>
 				<Order>91. 5</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
@@ -1738,7 +1853,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>93</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1750,7 +1866,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>94</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1762,7 +1879,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>95</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1774,7 +1892,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>96</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1786,7 +1905,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>97</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1798,7 +1918,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>98</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
@@ -1810,7 +1931,8 @@
 		<OffBalance>false</OffBalance>
 		<Order>99</Order>
 		<AccountingFlags>
-			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
