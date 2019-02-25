@@ -119,7 +119,7 @@
 			</Attribute>
 			<Attribute uuid="3a56bb1e-9f3b-455c-9116-511dc437924e">
 				<Properties>
-					<Name>РасчетныйСчет</Name>
+					<Name>СчетЮрЛица</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -203,7 +203,7 @@
 			</Attribute>
 			<Attribute uuid="769f5ef1-209a-4c1b-9d05-48f13425443f">
 				<Properties>
-					<Name>РасчетСчетКонтрагента</Name>
+					<Name>СчетКонтрагента</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

@@ -100,7 +100,7 @@
 		<Metadata name="CommonModule.КлиентскаяРаботаСДокументами.Module" id="94e97ba6-6782-4ee6-85b2-0edd847a866e.0" configVersion="9e1c89cbdc6e0a40929fc0329f7e706800000000"/>
 		<Metadata name="CommonModule.Расчет" id="ae611b85-dc31-487a-b530-4b8904a33c45" configVersion="2865cbf8d3e4b14cb494d64e82f7d84200000000"/>
 		<Metadata name="CommonModule.Расчет.Module" id="ae611b85-dc31-487a-b530-4b8904a33c45.0" configVersion="3f7f5cf389049543b41bcadc7b854d9000000000"/>
-		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="908516e57bb42d4a8bcff1a9f7bb74c500000000"/>
+		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="410af151c1ef614f915f6b95ed83059e00000000"/>
 		<Metadata name="Configuration.SimpleBY.ManagedApplicationModule" id="4b484417-6b31-454b-adca-47ff7a2dc992.6" configVersion="2c30099d07d7ad44ab05f036808c7d5400000000"/>
 		<Metadata name="Document.ВводПроизвольныхНачислений" id="ddf77391-cf83-49c3-b5d3-ab4db9397b3b" configVersion="7d0a0b31953a334aa6ff774034ce67d900000000">
 			<Metadata name="Document.ВводПроизвольныхНачислений.TabularSection.ЖурналНачислений.Attribute.БазовыйПериодКонец" id="13e21900-12b5-4565-9ce9-cbc2b4959169"/>
@@ -112,12 +112,12 @@
 			<Metadata name="Document.ВводПроизвольныхНачислений.TabularSection.ЖурналНачислений.Attribute.ВидРасчета" id="b83f16f9-2b48-412e-86dc-0a7530efbf6e"/>
 		</Metadata>
 		<Metadata name="Document.ВводПроизвольныхНачислений.ObjectModule" id="ddf77391-cf83-49c3-b5d3-ab4db9397b3b.0" configVersion="326866544427d249b0fc7ae7ac2064ea00000000"/>
-		<Metadata name="Document.ВходящиеПлатежи" id="0f40f764-1104-4184-802f-8f45781129e8" configVersion="76405512bc53574ab7679b4ab22633bf00000000">
-			<Metadata name="Document.ВходящиеПлатежи.Attribute.РасчетныйСчет" id="12674f9e-05ae-450f-bef7-e9bbb4aa1f02"/>
+		<Metadata name="Document.ВходящиеПлатежи" id="0f40f764-1104-4184-802f-8f45781129e8" configVersion="30b6983cfdb2e04885e9ccc458e7f3fb00000000">
+			<Metadata name="Document.ВходящиеПлатежи.Attribute.СчетЮрЛица" id="12674f9e-05ae-450f-bef7-e9bbb4aa1f02"/>
 			<Metadata name="Document.ВходящиеПлатежи.Attribute.ЮрЛицо" id="1ac66005-237e-41f2-9d2e-39f520242b58"/>
 			<Metadata name="Document.ВходящиеПлатежи.Attribute.Сумма" id="339a180c-c6df-4eb1-bb3e-7357435cb9c1"/>
 			<Metadata name="Document.ВходящиеПлатежи.Attribute.Контрагент" id="937da31f-5de9-4d89-bef8-35a575b3d870"/>
-			<Metadata name="Document.ВходящиеПлатежи.Attribute.РасчетСчетКонтрагента" id="b39fcb15-b62d-4267-849e-15c33ba2ee0d"/>
+			<Metadata name="Document.ВходящиеПлатежи.Attribute.СчетКонтрагенты" id="b39fcb15-b62d-4267-849e-15c33ba2ee0d"/>
 		</Metadata>
 		<Metadata name="Document.ВходящиеПлатежи.ObjectModule" id="0f40f764-1104-4184-802f-8f45781129e8.0" configVersion="56162c0f9071cc4a9b78a8660b44d68c00000000"/>
 		<Metadata name="Document.ВходящийАкт" id="c107de13-9564-4502-b1fb-09c6191c4d13" configVersion="cf1af46781e58142add19dc1c4d1511f00000000">
@@ -164,11 +164,11 @@
 			<Metadata name="Document.ПКО.Attribute.ЮрЛицо" id="3d0544e5-eabf-4fc6-86f8-2f3a8b91b4e9"/>
 		</Metadata>
 		<Metadata name="Document.ПКО.ObjectModule" id="1c5b48e7-9eaf-41f7-a77d-61136f9a8317.0" configVersion="8792dbebc9975246b94c26ffd682558d00000000"/>
-		<Metadata name="Document.Платежки" id="d01dbef1-1fca-4546-8930-c52110b53c4c" configVersion="11c05461e070724788285215de6981a600000000">
+		<Metadata name="Document.Платежки" id="d01dbef1-1fca-4546-8930-c52110b53c4c" configVersion="7ce8b1a1aa18b043ac6a917fc37e3a2500000000">
 			<Metadata name="Document.Платежки.Attribute.Контрагент" id="337c9eb8-2615-478f-9848-8c3a9653434a"/>
-			<Metadata name="Document.Платежки.Attribute.РасчетныйСчет" id="3a56bb1e-9f3b-455c-9116-511dc437924e"/>
+			<Metadata name="Document.Платежки.Attribute.СчетЮрЛица" id="3a56bb1e-9f3b-455c-9116-511dc437924e"/>
 			<Metadata name="Document.Платежки.Attribute.ЮрЛицо" id="4b52e227-d5d0-4396-906c-6271a1a2ad0b"/>
-			<Metadata name="Document.Платежки.Attribute.РасчетСчетКонтрагента" id="769f5ef1-209a-4c1b-9d05-48f13425443f"/>
+			<Metadata name="Document.Платежки.Attribute.СчетКонтрагента" id="769f5ef1-209a-4c1b-9d05-48f13425443f"/>
 			<Metadata name="Document.Платежки.Attribute.Сумма" id="c079b606-a3da-4c45-b27b-868eb2a95e1e"/>
 		</Metadata>
 		<Metadata name="Document.Платежки.ObjectModule" id="d01dbef1-1fca-4546-8930-c52110b53c4c.0" configVersion="d77df42b4f7d534aaf7406ab2909ea2900000000"/>
@@ -216,14 +216,16 @@
 		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="2c41a715-1601-4540-9589-468be894946d.0" configVersion="5e9c5f748fe1204d9d11a193ce5bc88700000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Template.ТН2" id="0bdef68b-a365-49aa-ad03-c781f7d0b7fc" configVersion="ac74258ced96184baab39baff354d58f00000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Template.ТН2.Template" id="0bdef68b-a365-49aa-ad03-c781f7d0b7fc.0" configVersion="b253d930947e7f4a8f971d9180a5d7ef00000000"/>
-		<Metadata name="Document.СчетНаОплату" id="5bf3b87e-9779-4932-baf3-2fe01497aa9b" configVersion="49d8f459afae004fa843baeeaf30279200000000">
+		<Metadata name="Document.СчетНаОплату" id="5bf3b87e-9779-4932-baf3-2fe01497aa9b" configVersion="8d9c7de5e1bb0f478529cdc4a9dc762e00000000">
 			<Metadata name="Document.СчетНаОплату.TabularSection.Товары.Attribute.Цена" id="1821b620-5837-4e90-abf2-3a2fb64679a0"/>
 			<Metadata name="Document.СчетНаОплату.TabularSection.Товары" id="4db5da76-1064-4a1d-85b6-051119db961c"/>
 			<Metadata name="Document.СчетНаОплату.Attribute.Контрагент" id="5dfa2af0-11d9-4006-8b46-9bb09f512a07"/>
 			<Metadata name="Document.СчетНаОплату.TabularSection.Товары.Attribute.Сумма" id="85a11285-66d0-4c66-8341-67e5a44fef7f"/>
 			<Metadata name="Document.СчетНаОплату.Command.Печать2" id="8aecce9b-cdb0-4ecb-9375-92c404a4c43f"/>
+			<Metadata name="Document.СчетНаОплату.Attribute.СчетЮрЛица" id="c22bfa92-8b0c-4b28-9820-d0aa76a09aea"/>
 			<Metadata name="Document.СчетНаОплату.TabularSection.Товары.Attribute.Номенклатура" id="cd55fb1e-93ed-4d6f-b5bc-e00118186507"/>
 			<Metadata name="Document.СчетНаОплату.Attribute.Договор" id="d15fb04d-c8e5-4561-87b7-6529c33fea53"/>
+			<Metadata name="Document.СчетНаОплату.Attribute.ЮрЛицо" id="d7ba4aa1-d823-4ae9-a87a-3eb7eca41362"/>
 			<Metadata name="Document.СчетНаОплату.TabularSection.Товары.Attribute.Количество" id="e1f8e0c9-57b2-4d8c-8410-3137fa6ec099"/>
 		</Metadata>
 		<Metadata name="Document.СчетНаОплату.Command.Печать2.CommandModule" id="8aecce9b-cdb0-4ecb-9375-92c404a4c43f.2" configVersion="6c1182a48604134dbd0bafc5b1409dac00000000"/>
