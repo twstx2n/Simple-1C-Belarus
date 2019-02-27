@@ -40,6 +40,11 @@
 			<ContextMenu name="ЦенаПродажиКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ЦенаПродажиРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<LabelField name="СтоимостьПокупки" id="24">
+			<DataPath>Объект.СтоимостьПокупки</DataPath>
+			<ContextMenu name="СтоимостьПокупкиКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="СтоимостьПокупкиРасширеннаяПодсказка" id="26"/>
+		</LabelField>
 		<CheckBoxField name="ЭтоУслуга" id="13">
 			<DataPath>Объект.ЭтоУслуга</DataPath>
 			<EditMode>EnterOnInput</EditMode>
