@@ -106,6 +106,17 @@
 						<Event name="OnChange">ТоварыНоменклатураПриИзменении</Event>
 					</Events>
 				</InputField>
+				<InputField name="ТоварыЦенаПокупки" id="60">
+					<DataPath>Объект.Товары.ЦенаПокупки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ContextMenu name="ТоварыЦенаПокупкиКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="ТоварыЦенаПокупкиРасширеннаяПодсказка" id="62"/>
+					<Events>
+						<Event name="OnChange">ТоварыЦенаПокупкиПриИзменении</Event>
+						<Event name="StartChoice">ТоварыЦенаПокупкиНачалоВыбора</Event>
+					</Events>
+				</InputField>
 				<InputField name="ТоварыКоличество" id="35">
 					<DataPath>Объект.Товары.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -161,6 +172,9 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.Товары"/>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>

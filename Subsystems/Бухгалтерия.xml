@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.РегистрБухгалтерии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОСВ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЮрЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьТоваровПоФакту</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
