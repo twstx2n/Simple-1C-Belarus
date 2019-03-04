@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<CommandsVisibility>
-		<Command name="AccumulationRegister.НаличностьВКассе.StandardCommand.OpenList">
+		<Command name="AccountingRegister.РегистрБухгалтерии.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -16,12 +16,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="AccountingRegister.РегистрБухгалтерии.StandardCommand.OpenList">
+		<Command name="AccumulationRegister.СтоимостьТоваров.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="AccumulationRegister.СтоимостьТоваров.StandardCommand.OpenList">
+		<Command name="AccumulationRegister.СтоимостьТоваровПоФакту.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
