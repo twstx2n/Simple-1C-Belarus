@@ -159,6 +159,12 @@
 					<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="50"/>
 					<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="51"/>
 				</InputField>
+				<InputField name="ТоварыСчетУчета" id="63">
+					<DataPath>Объект.Товары.СчетУчета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыСчетУчетаКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ТоварыСчетУчетаРасширеннаяПодсказка" id="65"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
