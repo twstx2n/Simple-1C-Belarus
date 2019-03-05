@@ -53,6 +53,16 @@
 			<ContextMenu name="СкладКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="15"/>
 		</InputField>
+		<InputField name="НомерДатаДоверенности" id="66">
+			<DataPath>Объект.НомерДатаДоверенности</DataPath>
+			<ContextMenu name="НомерДатаДоверенностиКонтекстноеМеню" id="67"/>
+			<ExtendedTooltip name="НомерДатаДоверенностиРасширеннаяПодсказка" id="68"/>
+		</InputField>
+		<InputField name="ФИОПоДоверенности" id="69">
+			<DataPath>Объект.ФИОПоДоверенности</DataPath>
+			<ContextMenu name="ФИОПоДоверенностиКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ФИОПоДоверенностиРасширеннаяПодсказка" id="71"/>
+		</InputField>
 		<Table name="Товары" id="16">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
