@@ -173,8 +173,6 @@
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
-			<Document>ИсходящийАкт</Document>
-			<Document>ВходящийАкт</Document>
 			<Document>ПКО</Document>
 			<Document>РКО</Document>
 			<Document>ОперацияБух</Document>
@@ -190,7 +188,6 @@
 			<Report>ОСВ</Report>
 			<Report>ОстаткиТМЦ</Report>
 			<Report>НулеваяСебестоимость</Report>
-			<InformationRegister>ПропискаСотрудника</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>РасчетыСПокупателями</AccumulationRegister>

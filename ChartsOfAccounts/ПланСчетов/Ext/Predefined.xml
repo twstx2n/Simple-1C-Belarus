@@ -335,7 +335,7 @@
 					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
-							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">false</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
 						</AccountingFlags>
@@ -692,7 +692,7 @@
 					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
-							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">false</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
 						</AccountingFlags>
