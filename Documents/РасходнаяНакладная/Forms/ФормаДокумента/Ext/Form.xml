@@ -34,6 +34,9 @@
 			<DataPath>Объект.ЮрЛицо</DataPath>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="56"/>
 			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="57"/>
+			<Events>
+				<Event name="OnChange">ОрганизацияПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
@@ -156,6 +159,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыСтавкаНДСКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="ТоварыСтавкаНДСРасширеннаяПодсказка" id="48"/>
+					<Events>
+						<Event name="OnChange">ТоварыСтавкаНДСПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСуммаНДС" id="52">
 					<DataPath>Объект.Товары.СуммаНДС</DataPath>
