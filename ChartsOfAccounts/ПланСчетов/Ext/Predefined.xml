@@ -328,10 +328,27 @@
 				<OffBalance>false</OffBalance>
 				<Order>10. 1</Order>
 				<AccountingFlags>
-					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">true</Flag>
 					<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 				</AccountingFlags>
-				<ExtDimensionTypes/>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Склады">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">false</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
 			</Item>
 			<Item id="7186e962-4cd8-46a3-8dae-0ad56790f8e9">
 				<Name>С10с2</Name>
@@ -683,7 +700,7 @@
 					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Склады">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
-							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">false</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">true</Flag>
 							<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
 						</AccountingFlags>
@@ -1047,7 +1064,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="880ac6bf-45bc-4799-a99c-654681eafad9">
 		<Name>С62</Name>
@@ -1060,7 +1086,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="f7453d12-0b3d-47a4-aaec-99e64f55d608">
 		<Name>С63</Name>
@@ -1130,7 +1165,7 @@
 			<Item id="68725e66-d029-4535-bb44-a6480b8375bf">
 				<Name>С66с3</Name>
 				<Code>66.3</Code>
-				<Description>ы ¶Расчеты по процентам по краткосрочным кредитам и займам</Description>
+				<Description>Расчеты по процентам по краткосрочным кредитам и займам</Description>
 				<AccountType>Passive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>66. 3</Order>

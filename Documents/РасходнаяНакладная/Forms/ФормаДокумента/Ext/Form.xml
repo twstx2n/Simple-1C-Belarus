@@ -34,6 +34,9 @@
 			<DataPath>Объект.ЮрЛицо</DataPath>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="56"/>
 			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="57"/>
+			<Events>
+				<Event name="OnChange">ОрганизацияПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Контрагент" id="7">
 			<DataPath>Объект.Контрагент</DataPath>
@@ -52,6 +55,16 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="СкладКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="НомерДатаДоверенности" id="66">
+			<DataPath>Объект.НомерДатаДоверенности</DataPath>
+			<ContextMenu name="НомерДатаДоверенностиКонтекстноеМеню" id="67"/>
+			<ExtendedTooltip name="НомерДатаДоверенностиРасширеннаяПодсказка" id="68"/>
+		</InputField>
+		<InputField name="ФИОПоДоверенности" id="69">
+			<DataPath>Объект.ФИОПоДоверенности</DataPath>
+			<ContextMenu name="ФИОПоДоверенностиКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="ФИОПоДоверенностиРасширеннаяПодсказка" id="71"/>
 		</InputField>
 		<Table name="Товары" id="16">
 			<Representation>List</Representation>
@@ -146,6 +159,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыСтавкаНДСКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="ТоварыСтавкаНДСРасширеннаяПодсказка" id="48"/>
+					<Events>
+						<Event name="OnChange">ТоварыСтавкаНДСПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСуммаНДС" id="52">
 					<DataPath>Объект.Товары.СуммаНДС</DataPath>
@@ -158,6 +174,12 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="50"/>
 					<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ТоварыСчетУчета" id="63">
+					<DataPath>Объект.Товары.СчетУчета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТоварыСчетУчетаКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ТоварыСчетУчетаРасширеннаяПодсказка" id="65"/>
 				</InputField>
 			</ChildItems>
 		</Table>
