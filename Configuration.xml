@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.1.16</Version>
+			<Version>0.0.0.1.17</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -160,7 +160,6 @@
 			<Subsystem>КассаИБанк</Subsystem>
 			<Subsystem>Зарплата</Subsystem>
 			<CommonModule>КлиентскаяРаботаСДокументами</CommonModule>
-			<CommonModule>Расчет</CommonModule>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Договора</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -176,7 +175,8 @@
 			<Document>ОперацияБух</Document>
 			<Document>Платежки</Document>
 			<Document>ВходящиеПлатежи</Document>
-			<Document>ВводПроизвольныхНачислений</Document>
+			<Document>ИсходящийАкт</Document>
+			<Document>ВходящийАкт</Document>
 			<Enum>ПолСотрудника</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>УчетСтоимости</Enum>
@@ -190,8 +190,6 @@
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
 			<AccountingRegister>РегистрБухгалтерии</AccountingRegister>
-			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
-			<CalculationRegister>ЖурналНачислений</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
