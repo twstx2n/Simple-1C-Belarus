@@ -15,10 +15,10 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализПродаж1</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализПродаж2</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиТМЦ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">34260b6c-4faa-4b4b-973c-2fb10533fa88</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3653ed02-e8d5-4d28-9f4d-c37a0d592fe9</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d24c8d75-af0e-4c49-89bb-7f163af6585c</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">747d4a91-ae30-4366-b97a-8246b27f8c2f</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

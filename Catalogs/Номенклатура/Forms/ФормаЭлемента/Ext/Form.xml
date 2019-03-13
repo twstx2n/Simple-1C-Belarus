@@ -57,11 +57,6 @@
 			<CommandName>Form.Command.ЗагрузитьФото</CommandName>
 			<ExtendedTooltip name="ЗагрузитьФотоРасширеннаяПодсказка" id="20"/>
 		</Button>
-		<PictureField name="АдресКартинки" id="16">
-			<DataPath>АдресКартинки</DataPath>
-			<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="АдресКартинкиРасширеннаяПодсказка" id="18"/>
-		</PictureField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -70,21 +65,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
-		</Attribute>
-		<Attribute name="АдресКартинки" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес картинки</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

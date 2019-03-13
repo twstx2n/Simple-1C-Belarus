@@ -15,7 +15,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НаличностьВКассе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8e81dbd3-a697-4fac-a6a6-00426aaef699</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РасчетныеСчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Платежки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВходящиеПлатежи</xr:Item>

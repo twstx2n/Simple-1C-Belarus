@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.1.15</Version>
+			<Version>0.0.0.1.16</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -173,8 +173,6 @@
 			<Document>СчетНаОплату</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
-			<Document>ПКО</Document>
-			<Document>РКО</Document>
 			<Document>ОперацияБух</Document>
 			<Document>Платежки</Document>
 			<Document>ВходящиеПлатежи</Document>
@@ -182,17 +180,12 @@
 			<Enum>ПолСотрудника</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>УчетСтоимости</Enum>
-			<Report>ОстаткиТоваров</Report>
-			<Report>АнализПродаж1</Report>
-			<Report>АнализПродаж2</Report>
 			<Report>ОСВ</Report>
-			<Report>ОстаткиТМЦ</Report>
 			<Report>НулеваяСебестоимость</Report>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>РасчетыСПокупателями</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
-			<AccumulationRegister>НаличностьВКассе</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваровПоФакту</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>

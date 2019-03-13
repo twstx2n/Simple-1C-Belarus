@@ -20,8 +20,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">82aed507-0feb-46b9-8c6e-a760803527cb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">c107de13-9564-4502-b1fb-09c6191c4d13</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.РКО</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПКО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">11c28baf-eec1-4053-9f88-ba11fbd6b500</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1c5b48e7-9eaf-41f7-a77d-61136f9a8317</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -12,6 +12,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="58">
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="59"/>
