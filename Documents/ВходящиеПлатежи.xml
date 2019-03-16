@@ -225,7 +225,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">6a932f96-bc20-4a01-bc67-b1b4e67b80e8.17139626-3747-49c8-a2b1-7640ddd07d72</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Catalog.РасчетныеСчета.Основной</FillValue>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks>
