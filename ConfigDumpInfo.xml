@@ -94,7 +94,7 @@
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Predefined" id="079f520a-5dba-4cf8-b2b4-d1c33d6272f6.7" configVersion="f95ab54ec044f54a95a13b2e33cff65e00000000"/>
 		<Metadata name="CommonModule.КлиентскаяРаботаСДокументами" id="94e97ba6-6782-4ee6-85b2-0edd847a866e" configVersion="5a7c65581f293f49910712fe08279bac00000000"/>
 		<Metadata name="CommonModule.КлиентскаяРаботаСДокументами.Module" id="94e97ba6-6782-4ee6-85b2-0edd847a866e.0" configVersion="74a7691849f5be4ea8ae695ce431d4b000000000"/>
-		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="667430ce595b724ca27bbf622fa050b600000000"/>
+		<Metadata name="Configuration.SimpleBY" id="a4b1aefd-43f4-4017-bcdd-05491e004536" configVersion="c7edafc83892db4b9158e75d3ea685ab00000000"/>
 		<Metadata name="Configuration.SimpleBY.ManagedApplicationModule" id="4b484417-6b31-454b-adca-47ff7a2dc992.6" configVersion="13345e58bb442145b85a6d53447e751200000000"/>
 		<Metadata name="Document.ВходящиеПлатежи" id="0f40f764-1104-4184-802f-8f45781129e8" configVersion="c7124ef230005746a98f02634a49ac1700000000">
 			<Metadata name="Document.ВходящиеПлатежи.Attribute.СчетЮрЛица" id="12674f9e-05ae-450f-bef7-e9bbb4aa1f02"/>
@@ -144,8 +144,8 @@
 			<Metadata name="Document.ИсходящийАкт.TabularSection.Услуги.Attribute.Количество" id="dab3a117-8348-453c-9d0a-12bb05694c5d"/>
 			<Metadata name="Document.ИсходящийАкт.TabularSection.Товары.Attribute.СуммаНДС" id="e2a685df-0974-405d-9abd-453521021de8"/>
 		</Metadata>
-		<Metadata name="Document.ИсходящийАкт.Form.ФормаДокумента" id="e6b36a8d-ae7e-4ab8-b9a2-65b91aefbea1" configVersion="efea5388ef1b7042a928417efa5bc37b00000000"/>
-		<Metadata name="Document.ИсходящийАкт.Form.ФормаДокумента.Form" id="e6b36a8d-ae7e-4ab8-b9a2-65b91aefbea1.0" configVersion="0e441a84dea23a49b841cf75eb6b89c600000000"/>
+		<Metadata name="Document.ИсходящийАкт.Form.ФормаДокумента" id="e6b36a8d-ae7e-4ab8-b9a2-65b91aefbea1" configVersion="5d95ceeb0b3eb7478768e5361f44e38200000000"/>
+		<Metadata name="Document.ИсходящийАкт.Form.ФормаДокумента.Form" id="e6b36a8d-ae7e-4ab8-b9a2-65b91aefbea1.0" configVersion="d8fe56f9345b5b4d96e15fd1b90a6d2400000000"/>
 		<Metadata name="Document.ИсходящийАкт.ObjectModule" id="69a2c0a5-1c79-4673-a57e-e5032cfc6069.0" configVersion="cc7f3d9930898b499b8d20c1429c289d00000000"/>
 		<Metadata name="Document.ОперацияБух" id="155e1d37-eed3-4421-89c1-34c4e38ba9b7" configVersion="9334e06c3b6fa747a94ef9342b947bcb00000000">
 			<Metadata name="Document.ОперацияБух.Attribute.ЮрЛицо" id="ae062e5c-1642-406c-a40a-1ac80de020c0"/>
