@@ -15,9 +15,9 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводПроизвольныхНачислений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ЖурналНачислений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.Начисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ddf77391-cf83-49c3-b5d3-ab4db9397b3b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9bc20d47-d7de-4ce7-8646-15973d894d34</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">da7617a9-ebc9-4081-b62f-ce205cb9c894</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
