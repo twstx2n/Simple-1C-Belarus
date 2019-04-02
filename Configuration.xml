@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>0.0.0.1.19</Version>
+			<Version>0.0.0.1.20</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -177,6 +177,7 @@
 			<Document>ВходящиеПлатежи</Document>
 			<Document>ИсходящийАкт</Document>
 			<Document>ВходящийАкт</Document>
+			<Document>СписаниеМатериалов</Document>
 			<Enum>ПолСотрудника</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>УчетСтоимости</Enum>
