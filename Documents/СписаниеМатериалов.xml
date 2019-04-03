@@ -61,6 +61,8 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьТоваровПоФакту</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.РегистрБухгалтерии</xr:Item>
 			</RegisterRecords>
