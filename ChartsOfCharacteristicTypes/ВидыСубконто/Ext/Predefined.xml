@@ -27,4 +27,13 @@
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b8e30077-0f7d-48e8-9fef-fafff81a0031">
+		<Name>Сотрудник</Name>
+		<Code>000000004</Code>
+		<Description>Сотрудник</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Сотрудники</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

@@ -1335,7 +1335,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудник">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="52fc46f0-fecc-49c3-8de1-54c0fd066891">
 		<Name>С71</Name>
@@ -1348,7 +1357,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудник">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="1ed47677-d1f4-420b-bbd9-878090a7f131">
 		<Name>С73</Name>
