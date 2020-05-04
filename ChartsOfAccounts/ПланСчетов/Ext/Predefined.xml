@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.7">
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.9">
 	<Item id="71371b8b-4d4a-461d-8964-21bb3bb48692">
 		<Name>С01</Name>
 		<Code>01</Code>
@@ -1335,7 +1335,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудник">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="52fc46f0-fecc-49c3-8de1-54c0fd066891">
 		<Name>С71</Name>
@@ -1348,7 +1357,16 @@
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.КоличественныйУчет">false</Flag>
 			<Flag ref="ChartOfAccounts.ПланСчетов.AccountingFlag.ВалютныйУчет">false</Flag>
 		</AccountingFlags>
-		<ExtDimensionTypes/>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудник">
+				<Turnover>false</Turnover>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.СуммовойУчет">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.КоличественныйУчет">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетов.ExtDimensionAccountingFlag.ВалютныйУчет">false</Flag>
+				</AccountingFlags>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
 	</Item>
 	<Item id="1ed47677-d1f4-420b-bbd9-878090a7f131">
 		<Name>С73</Name>
