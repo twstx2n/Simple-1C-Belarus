@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -177,6 +177,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="50"/>
 					<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="51"/>
+					<Events>
+						<Event name="OnChange">ТоварыСуммаСНДСПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСчетУчета" id="63">
 					<DataPath>Объект.Товары.СчетУчета</DataPath>
@@ -186,6 +189,26 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<UsualGroup name="Группа2" id="81">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="82"/>
+			<ChildItems>
+				<LabelField name="ТоварыИтогСумма" id="72">
+					<DataPath>Объект.Товары.TotalСумма</DataPath>
+					<ContextMenu name="ТоварыИтогСуммаКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="ТоварыИтогСуммаРасширеннаяПодсказка" id="74"/>
+				</LabelField>
+				<LabelField name="ТоварыИтогСуммаНДС" id="75">
+					<DataPath>Объект.Товары.TotalСуммаНДС</DataPath>
+					<ContextMenu name="ТоварыИтогСуммаНДСКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ТоварыИтогСуммаНДСРасширеннаяПодсказка" id="77"/>
+				</LabelField>
+				<LabelField name="ТоварыИтогСуммаСНДС" id="78">
+					<DataPath>Объект.Товары.TotalСуммаСНДС</DataPath>
+					<ContextMenu name="ТоварыИтогСуммаСНДСКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="ТоварыИтогСуммаСНДСРасширеннаяПодсказка" id="80"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
